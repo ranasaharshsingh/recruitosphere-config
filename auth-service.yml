@@ -1,13 +1,7 @@
 spring:
   application:
     name: auth-service
-  datasource:
-    url: jdbc:mysql://localhost:3306/recruitosphere_auth
-    username: root
-    password: root
-  jpa:
-    hibernate:
-      ddl-auto: update    
+   
 server:
   port: 8081
 
